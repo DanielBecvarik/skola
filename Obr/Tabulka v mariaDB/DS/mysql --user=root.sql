@@ -1,0 +1,21 @@
+
+CREATE DATABASE vysvedceni;
+USE vysvedceni;
+CREATE TABLE znamky (predmet VARCHAR(60), 1_pololeti INT, 2_pololeti INT);
+INSERT INTO znamky (predmet, 1_pololeti, 2_pololeti) VALUES ("Chovani", 1, 1);
+INSERT INTO znamky (predmet, 1_pololeti, 2_pololeti) VALUES ("Cesky jazyk a literatura", 2, 2);
+INSERT INTO znamky (predmet, 1_pololeti, 2_pololeti) VALUES ("Anglicky jazyk", 2, 2);
+INSERT INTO znamky (predmet, 1_pololeti, 2_pololeti) VALUES ("Nemecky jazyk", 3, 3);
+INSERT INTO znamky (predmet, 1_pololeti, 2_pololeti) VALUES ("Matemetika", 3, 3);
+INSERT INTO znamky (predmet, 1_pololeti, 2_pololeti) VALUES ("Dejepis", 1, 1);
+INSERT INTO znamky (predmet, 1_pololeti, 2_pololeti) VALUES ("Obcanská vychova", 2, 2);
+INSERT INTO znamky (predmet, 1_pololeti, 2_pololeti) VALUES ("Fyzika", 2, 2);
+INSERT INTO znamky (predmet, 1_pololeti, 2_pololeti) VALUES ("Chemie", 3, 4);
+INSERT INTO znamky (predmet, 1_pololeti, 2_pololeti) VALUES ("Prirodopis", 3, 4);
+INSERT INTO znamky (predmet, 1_pololeti, 2_pololeti) VALUES ("Zemepis", 1, 2);
+INSERT INTO znamky (predmet, 1_pololeti, 2_pololeti) VALUES ("Hudebni vychova", 1, 1);
+INSERT INTO znamky (predmet, 1_pololeti, 2_pololeti) VALUES ("Vytvarná vychova", 1, 2);
+INSERT INTO znamky (predmet, 1_pololeti, 2_pololeti) VALUES ("Telesna vychova", 1, 1);
+INSERT INTO znamky (predmet, 1_pololeti, 2_pololeti) VALUES ("Vychova ke zdravi", 2, 2);
+INSERT INTO znamky (predmet, 1_pololeti, 2_pololeti) VALUES ("Pracovni cinnosti", 1, 1);
+INSERT INTO znamky (predmet, 1_pololeti, 2_pololeti) VALUES ("Informacni a komunikacni technologie", 1, 1);

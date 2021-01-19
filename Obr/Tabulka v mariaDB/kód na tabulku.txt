@@ -1,0 +1,23 @@
+mysql --user=root
+CREATE DATABASE zs_aleska;
+USE zs_aleska;
+CREATE TABLE zaci (id INT, jmeno VARCHAR(20), prijmeni VARCHAR(20), trida VARCHAR(20));
+CREATE TABLE ucitele (id INT, jmeno VARCHAR(20), prijmeni VARCHAR(20), tridni VARCHAR(20));
+INSERT INTO zaci (id, jmeno, prijmeni, trida) VALUES (1, "Adam", "Smolka", "9.A");
+INSERT INTO zaci (id, jmeno, prijmeni, trida) VALUES (2, "Miroslav", "Šlajer", "9.A");
+INSERT INTO zaci (id, jmeno, prijmeni, trida) VALUES (3, "Honza", "Sysel", "9.A");
+INSERT INTO zaci (id, jmeno, prijmeni, trida) VALUES (4, "Jiří", "Šmíd", "9.A");
+INSERT INTO zaci (id, jmeno, prijmeni, trida) VALUES (5, "Adam", "Kolařík", "9.A");
+INSERT INTO zaci (id, jmeno, prijmeni, trida) VALUES (6, "Amálie", "Dobosi", "9.A");
+INSERT INTO zaci (id, jmeno, prijmeni, trida) VALUES (7, "Hana", "Motlová", "9.A");
+INSERT INTO zaci (id, jmeno, prijmeni, trida) VALUES (8, "Lucie", "Velková", "9.A");
+INSERT INTO zaci (id, jmeno, prijmeni, trida) VALUES (9, "Klára", "Vacková", "9.A");
+INSERT INTO zaci (id, jmeno, prijmeni, trida) VALUES (10, "Veronika", "Palusková", "9.A");
+INSERT INTO zaci (id, jmeno, prijmeni, trida) VALUES (11, "František", "Kovařík", "9.A");
+INSERT INTO zaci (id, jmeno, prijmeni, trida) VALUES (12, "Daniel", "Hájek", "9.A");
+INSERT INTO zaci (id, jmeno, prijmeni, trida) VALUES (13, "Daniel", "Bečvařík", "9.A");
+INSERT INTO ucitele (id, jmeno, prijmeni, tridni) VALUES (1,"Jakub", "Jakl", "9.A");
+INSERT INTO ucitele (id, jmeno, prijmeni, tridni) VALUES (2,"Jan", "Švach", "6.A");
+INSERT INTO ucitele (id, jmeno, prijmeni, tridni) VALUES (3,"Marcela", "Raflerová", "7.B");
+INSERT INTO ucitele (id, jmeno, prijmeni, tridni) VALUES (4,"Barbora", "Švejnohová", "9.B");
+INSERT INTO ucitele (id, jmeno, prijmeni, tridni) VALUES (5,"Martin", "Hlavatý", "8.A");
