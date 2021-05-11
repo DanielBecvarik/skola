@@ -1,0 +1,1 @@
+Primární klíč je jednotná sekce v tabulce která se nikde nevyskytuje. Cizí klíč je zase hodnota která se vyskytuje ve vícero tabulkách a souvisí společně.
