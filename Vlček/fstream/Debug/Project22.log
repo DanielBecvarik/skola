@@ -1,3 +1,0 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\WDExpress\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: Zprostředkující adresář (Debug\) obsahuje soubory sdílené z jiného projektu (Project22.vcxproj). To může způsobit nesprávné chování při čištění a opětovném sestavení.
-  main.cpp
-  Project22.vcxproj -> C:\Users\Daniel\source\repos\Project22\Debug\fstream.exe
