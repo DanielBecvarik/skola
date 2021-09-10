@@ -1,0 +1,36 @@
+#include<iostream>
+#include<string>
+using namespace std;
+ 
+int main (){ 
+	//int a,b ;
+	//cout << "zadej prvni cislo: " ;
+	//cin >> a;
+	//cout << "zadej druhe cislo: " ;
+	//cin >> b;
+
+
+	//cout << "matematicke operace se zadanymi cisli: " << a << " , " << b << endl;
+	//cout << "------------------------------------------------------------" endl;
+	//cout << a << " + " << b << " = " << a + b << endl;
+	//cout << a << " - " << b << " = " << a - b << endl;
+	//cout << a << " x " << b << " = " << a x b << endl;
+	//cout << a << " : " << b << " = " << a / b << endl;
+	//cout << a << " % " << b << " = " << a % b << endl;
+
+	string text1, text2, text3;
+	int cislo1, cislo2;
+	cout << "zadej tri slova za sebou a nasledne dve cisla: ";
+	cin >> text1 >> text2 >> text3 >> cislo1 >> cislo2;
+	 
+	cout << "text1= " << text1 << endl;
+	cout << "text2= " << text2 << endl; 
+	cout << "text3= " << text3 << endl;
+	cout << "cislo1= " << cislo1 << endl;
+	cout << "cislo2= " << cislo2 << endl;
+
+
+
+	system("pause");
+	return 0;
+}

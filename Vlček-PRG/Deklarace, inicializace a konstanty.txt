@@ -1,0 +1,34 @@
+#include<iostream>
+
+using namespace std;
+
+int main() {
+	//-------------Deklarace promenych-------------
+	/*Deklarace je v informatice zápis, kterým se v poèítaèovém programu 
+	zavádí jméno a zpravidla urèuje jeho datový typ a další aspekty pro promìnné, funkce, konstanty apod. 
+	Pøekladaè je tak informován o pøíslušném objektu*/
+	int cislo;
+	double desetinne_cislo;
+	char znak;
+	bool pravda_nepravda;
+	string text;
+	//-------------Inicializace promenych-------------
+	/*zavedení urèitého programu do nadøazeného systému nebo spuštìní urèité funkce.
+	V jistém slova smyslu se inicializace mùže pøekrývat s pojmem instalace, 
+	ovšem inicializace mùže oznaèovat širší spektrum softwarových operací.
+	Inicializací mùže být spuštìní prostøedí, ve kterém pobìží urèitý program nebo i bìžné naètení souboru.*/
+
+	cislo = 15;
+	desetinne_cislo = 5.9;
+	znak - 'a';
+	pravda_nepravda = true;
+	text = "toto je nejaky text"
+		//-------------Deklrace s Inicializaci promenych-------------
+		int cislo2 = 25;
+	bool nepravda = false;
+	//-------------Deklarace konstanty-------------
+	const int Konstanta = 5; //nutna okamzita inicializace
+
+	system("pause");
+		return 0;
+}

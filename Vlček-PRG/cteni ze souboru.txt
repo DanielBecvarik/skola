@@ -1,0 +1,36 @@
+#include <iostream>
+#include <string>
+#include <fstream>
+using namespace std;
+
+int main() {
+	ofstream zapis;	
+	zapis.open("text.txt", ios::app);
+	string cesta = "C:\\text.txt";
+
+	for (int i = 1; i <= 10; i++) {
+		for (int y = 1; y <= 10; y++) {
+			zapis << i * y << " ";
+		}
+		zapis << endl;
+	}
+	zapis.close();
+
+	ifstream cteni;
+	cteni.open("text.txt");
+	
+	if (cteni.fail()) {
+		cout << "chyba nacteni souboru..." << endl;
+		system("pause");
+		return 0;
+	}
+	
+	string pepa;
+	while (getline(cteni, pepa)) { 
+		cout << pepa << endl;
+	}
+	cteni.close();
+
+	system("pause");
+	return 0;
+}

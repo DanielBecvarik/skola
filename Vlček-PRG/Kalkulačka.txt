@@ -1,0 +1,25 @@
+// Include the output/input library
+#include<iostream>
+// Include the string library
+#include <string>
+
+
+using namespace std;
+
+int main() {
+
+	double x, y;
+	cout << "Cislo 1: ";
+	cin >> x;
+	cout << "Cislo 2: ";
+	cin >> y;
+	cout << "\tVysledek " << x << " + " << y << " je " << x + y << endl;
+	cout << "\tVysledek " << x << " - " << y << " je " << x - y << endl;
+	cout << "\tVysledek " << x << " * " << y << " je " << x * y << endl;
+	cout << "\tVysledek " << x << " : " << y << " je " << x / y << endl;
+
+
+
+	system("pause");
+	return 0;
+}

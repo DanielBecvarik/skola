@@ -1,0 +1,46 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+	cout << "\t+---------+" << endl;
+	cout << "\t|   POLE  |" << endl;
+	cout << "\t+---------+" << endl;
+
+	const int N = 5;
+	string jmena[N];
+	for (int i = 0; i < N; i++) {
+		cout << "zadej" << i + 1 << ".jmeno:" << endl;
+		getline(cin, jmena[i]);
+	}
+
+	cout << "kontrolni vypis: ";
+	for (int i = 0; i < N; i++) {
+		cout << jmena[i] << endl;
+	}
+	const int M = 30;
+	int cisla[M];
+	for (int i = 0; i < M; i++)
+	{
+		cisla[i] = rand() % 11;
+	}
+	cout << "Vypis cisel 1. radek: ";
+	for (int i = 0; i < M; i++) {
+		cout << cisla[i] << " ";
+	}
+	cout << endl;
+	cout << endl;
+	for (int i = 0; i < M; i++)
+	{
+		cisla[i] = rand() % 11;
+	}
+	cout << "Vypis cisel 2. radku: ";
+	for (int i = 0; i < M; i++) {
+		cout << cisla[i] << " ";
+	}
+	cout << endl;
+
+
+	system("pause");
+	return 0;
+}

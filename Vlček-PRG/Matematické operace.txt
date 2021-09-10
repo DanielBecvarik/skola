@@ -1,0 +1,76 @@
+#include<iostream>
+#include<string>
+using namespace std;
+
+int main() {
+	//string jmeno, prijmeni;
+	string jmeno;
+	string prijmeni = "Novak";
+	jmeno = "Petr";
+
+	cout << "jmeno: " << jmeno << endl;
+	cout << "prijmeni: " << prijmeni << endl;
+
+	int cislo1 = 25, cislo2 = 26, cislo3 = -150;
+	cout << "1. cislo: " << cislo1 << endl;
+	cout << "2. cislo: " << cislo2 << endl;
+	cout << "3. cislo: " << cislo3 << endl;
+
+	double d_cislo1 = 5.9, dCislo2 = 15.158;
+	cout << "double cislo 1: " << d_cislo1 << endl;
+	cout << "double cislo 2: " << dCislo2 << endl;
+
+	char z1 = 'a', z2 = 'h', z3 = 'o', z4 = 'j';
+	cout << "znak: " << z1 << z2 << z3 << z4 << endl;
+
+	string jmenoPrijmeni = "Jirka Maly";
+	//----------- mat. operace -----------
+	/*
+	+ -> scitani
+	- -> odcitani
+	* -> nasobeni
+	/ -> deleni
+	% -> modulo
+	*/
+
+	int a = 10, b = 5, vysledek;
+	double a1 = 120, b1 = 5, vysledek1;
+	cout << "cislo1: " << a << ", cislo2: " << b << endl;
+	//cout << "scitani: " << a + b << endl;
+	vysledek = a + b; //15
+	cout << "scitani:\t" << vysledek << endl;
+	vysledek = a - b; //5
+	cout << "odcitani:\t" << vysledek << endl;
+	vysledek = a * b; //50
+	cout << "nasobeni:\t" << vysledek << endl;
+	vysledek = a / b; //2
+	cout << "deleni:\t\t" << vysledek << endl;
+	vysledek1 = a1 / b1; //2.4 
+	cout << "deleni double:\t" << vysledek1 << endl;
+	vysledek = a % b; //0
+	cout << "modulo:\t\t " << vysledek << endl;
+	cout << "15 % 5 = " << 15 % 5 << endl;
+	//vysledek = a1 % b1; !!!! double s % nepouzivat, pouze int
+
+
+	system("pause");
+	return 0;
+}
+
+////------------ deklarace promennych ------------
+//unsigned int cislo;
+//double desetinne_cislo;
+//char znak;
+//bool pravda_nepravda;
+//string text;
+////------------ inicializace promennych ------------
+//cislo = 15;
+//desetinne cislo = 5.9;
+//znak = 'a';
+//pravda_nepravda = true;
+//text = "toto je nejaky text";
+////------------ deklarace s inicializaci promennych ------------
+//int cislo2 =  25;
+//bool nepravda = false;
+////------------ deklarace konstanty ------------
+//const int Konstanta = 5; // nutna okamzita inicializace

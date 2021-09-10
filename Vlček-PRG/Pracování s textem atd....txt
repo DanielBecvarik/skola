@@ -1,0 +1,28 @@
+#include<iostream>
+
+using namespace std;
+
+ int main() {
+	 cout << "toto je nejaky text" << endl << "toto je pokracovani" << endl << endl;
+	cout << "toto je dalsi text" << endl;
+	cout << "pismeno: \"a\" a \\pokracujeme\\" << endl;
+	cout << "prvni radek\ndruhy radek\ntreti radek" << endl;
+	cout << "tabulator:\t\totabulovany text" << endl;
+	cout << "toto je text v jednom radku";
+	cout << "Pokracovani v predeslem radku" << endl;
+
+
+	system("pause");
+	return 0;
+}
+/*	víceøádkový komentáø
+	# = prvAlt + x 
+	< = prvAlt + , 
+	> = prvAlt + .
+	{ = prvAlt + b
+	} = prvAlt + n
+	\ = prvAlt + q
+*/
+// toto je jednoøádkový komentáø
+// toto je také jednoøádkový komentáø
+// a toto také
