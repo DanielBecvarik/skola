@@ -1,0 +1,52 @@
+#include <iostream>
+#include <string>
+#include <fstream>
+using namespace std;
+
+int main() {
+	ifstream cteni;
+	cteni.open("text.txt");
+
+	if (cteni.fail()) {
+		cout << "chyba nacteni souboru..." << endl;
+		system("pause");
+		return 0;
+	}
+
+	int vek;
+	string jmeno;
+	double suma = 0;
+	int pocetOsob = 0;
+
+	while (cteni >> jmeno >> vek) {
+		suma += vek;
+		pocetOsob++;
+	}
+
+	/*while (cteni >> jmeno >> vek) {
+		cout << jmeno << " : " << vek << endl;
+
+		}*/
+
+		/*int cislo;
+	int opakovani = 0;
+	while (cteni >> cislo) {
+		cout << cislo << " ";
+		opakovani++;
+		if (opakovani == 10) {
+			cout << endl;
+			opakovani = 0;
+		}*/
+	
+	cteni.close();
+
+	cout << "prumerny vek vsech osob: " << suma / pocetOsob << endl;
+
+	ofstream zapis;
+	zapis.open("vystup.txt");
+	zapis << "prumerny vek vsech osob: " << suma / pocetOsob << endl;
+	zapis.close();
+
+	system("pause");
+	return 0;
+}
